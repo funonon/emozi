@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>絵文字配布サイト</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .emoji-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); gap: 10px; padding: 20px; }
+        .emoji-item { display: flex; flex-direction: column; align-items: center; }
+    </style>
+</head>
+<body>
+    <h1>絵文字配布サイト</h1>
+    <div class="emoji-grid">
+        <div class="emoji-item">
+            <img src="emojis/emoji1.png" alt="Emoji 1" width="80">
+            <a href="emojis/emoji1.png" download>Download</a>
+        </div>
+        <div class="emoji-item">
+            <img src="emojis/emoji2.png" alt="Emoji 2" width="80">
+            <a href="emojis/emoji2.png" download>Download</a>
+        </div>
+        <!-- 追加の絵文字をここに -->
+    </div>
+</body>
+</html>
